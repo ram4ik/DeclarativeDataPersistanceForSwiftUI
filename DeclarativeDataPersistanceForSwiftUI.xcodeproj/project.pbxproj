@@ -13,6 +13,7 @@
 		84E5F2982ADE446200F63B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E5F2972ADE446200F63B26 /* Preview Assets.xcassets */; };
 		84E5F29F2ADE496E00F63B26 /* AtBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F29E2ADE496E00F63B26 /* AtBindable.swift */; };
 		84E5F2A12ADE499800F63B26 /* AtState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F2A02ADE499800F63B26 /* AtState.swift */; };
+		84E5F2A32ADE4ACB00F63B26 /* AtEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F2A22ADE4ACB00F63B26 /* AtEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		84E5F2972ADE446200F63B26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84E5F29E2ADE496E00F63B26 /* AtBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtBindable.swift; sourceTree = "<group>"; };
 		84E5F2A02ADE499800F63B26 /* AtState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtState.swift; sourceTree = "<group>"; };
+		84E5F2A22ADE4ACB00F63B26 /* AtEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				84E5F2902ADE446100F63B26 /* DeclarativeDataPersistanceForSwiftUIApp.swift */,
+				84E5F2A22ADE4ACB00F63B26 /* AtEnvironment.swift */,
 				84E5F2A02ADE499800F63B26 /* AtState.swift */,
 				84E5F29E2ADE496E00F63B26 /* AtBindable.swift */,
 				84E5F2922ADE446100F63B26 /* ContentView.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				84E5F29F2ADE496E00F63B26 /* AtBindable.swift in Sources */,
 				84E5F2932ADE446100F63B26 /* ContentView.swift in Sources */,
+				84E5F2A32ADE4ACB00F63B26 /* AtEnvironment.swift in Sources */,
 				84E5F2A12ADE499800F63B26 /* AtState.swift in Sources */,
 				84E5F2912ADE446100F63B26 /* DeclarativeDataPersistanceForSwiftUIApp.swift in Sources */,
 			);

@@ -14,6 +14,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("@State", systemImage: "swift")
                 }
+            
             AtBindable()
                 .tabItem {
                     Label("@Bindable", systemImage: "swift")
