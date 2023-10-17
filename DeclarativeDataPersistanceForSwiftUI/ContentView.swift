@@ -19,10 +19,16 @@ struct ContentView: View {
                 .tabItem {
                     Label("@Bindable", systemImage: "swift")
                 }
+            
+            AtEnvironment()
+                .tabItem {
+                    Label("@Environment", systemImage: "swift")
+                }
         }
     }
 }
 
 #Preview {
     ContentView()
+        .environment(Light())
 }

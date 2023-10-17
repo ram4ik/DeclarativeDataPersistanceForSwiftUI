@@ -30,7 +30,11 @@ struct AtEnvironment: View {
     @Environment(Light.self) private var light
     
     var body: some View {
-        Room2()
+        VStack {
+            Room2()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(light.isOn ? .yellow : .black)
     }
 }
 
